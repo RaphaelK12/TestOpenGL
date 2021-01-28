@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{425bbbf5-da5e-4d3a-b849-13d355574b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Manager">
+      <UniqueIdentifier>{180eaa3f-a254-4592-a151-df2754151cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\GL">
+      <UniqueIdentifier>{37c0532b-47b2-40ce-a804-fee26d3acb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{28a0c0b4-f3ba-449f-86ad-3382427c15b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Manager">
+      <UniqueIdentifier>{b0ac91ec-8418-4086-b58a-d287eda8bf00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\GL">
+      <UniqueIdentifier>{d452cb2a-3e23-4022-b938-b9d4e7c3cad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\shader">
+      <UniqueIdentifier>{85632c9f-0b88-42ad-8f84-609b689a114d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{8d87c3b9-9aa2-4be7-b764-fd7bf0601322}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\WindowsOpengl\stdafx.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\framework.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\Resource.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\targetver.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\WindowsOpengl.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\bone.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\camera.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\ligith.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\malha.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\manager.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\material.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\objeto.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\objetob.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\projetor.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\shader.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\skeleton.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\texto.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\texture.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\Utils.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\VectorsGLM.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\core+ext.h">
+      <Filter>Arquivos de Cabeçalho\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\GLfunctions.h">
+      <Filter>Arquivos de Cabeçalho\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\GLgetFunctions.h">
+      <Filter>Arquivos de Cabeçalho\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\wgl+wglext.h">
+      <Filter>Arquivos de Cabeçalho\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\WGLfunctions.h">
+      <Filter>Arquivos de Cabeçalho\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\WGlGetFunctions.h">
+      <Filter>Arquivos de Cabeçalho\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\default.fs">
+      <Filter>Arquivos de Origem\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WindowsOpengl\default.vs">
+      <Filter>Arquivos de Origem\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>Arquivos de Cabeçalho\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\WindowsOpengl\bone.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\camera.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\ligith.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\malha.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\manager.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\material.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\objeto.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\objetob.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\projetor.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\shader.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\skeleton.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\texto.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\texture.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\Utils.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\GLgetFunctions.cpp">
+      <Filter>Arquivos de Origem\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WindowsOpengl\WGlGetFunctions.cpp">
+      <Filter>Arquivos de Origem\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="MatEditor.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>Arquivos de Origem\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\WindowsOpengl\WindowsOpengl.rc">
+      <Filter>Arquivos de Recurso</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\WindowsOpengl\small.ico">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+    <Image Include="..\WindowsOpengl\WindowsOpengl.ico">
+      <Filter>Arquivos de Recurso</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+Material
+i  type: 			1
+i  castShadows: 	1
+i  receiveShadows: 	1
+i  renderable: 		1
+i  transparent: 	0
+i  alphaBlendMode: 	0
+i  colorBlendMode: 	0
+i  cullFace: 		1
+i  dephtTest: 		1
+i  dephtWrite: 		1
+i  shadingModel: 	1
+v2 polygonOffset: 	0.0  0.0
+v4 color1: 			0.5  0.5  0.5  1.0
+v4 color2: 			1.0  1.0  1.0  1.0
+v4 color3: 			1.0  1.0  1.0  1.0
+v4 diffuse: 		1.0  1.0  1.0  1.0
+v4 ambient: 		0.1  0.1  0.1  1.0
+v4 emission: 		0.0  0.0  0.1  1.0
+v4 translucenci: 	1.0  1.0  1.0  1.0
+v4 sadowsColor: 	0.0  0.0  0.0  1.0
+v4 specular: 		1.0  1.0  1.0  1.0
+v4 reflex: 			1.0  1.0  1.0  1.0
+v4 shinines: 		256.0  256.0  1.0  1.0
+s  name: 			default
+s  fileName: 		default.mat
+s  shaderName: 		default
+s  textures: 		defaultTexture1 defaultTexture2 defaultTexture3 defaultTexture4 defaultTexture5   
